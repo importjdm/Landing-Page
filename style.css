@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    margin: 0px;
 
 }
 .header{
@@ -57,7 +58,7 @@ a{
     justify-content: center;
     align-content: center;
     margin-top: 50px;
-   /* gap: 15px;*/
+   margin-bottom: 80px;
     
     
     
@@ -108,11 +109,54 @@ p{
 }
 
 img{
-    height: 240px;
-    width: 600px;
+    /*height: 240px;
+    width: 600px;*/
 }
 
 .pic {
     
 }
 
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.h2{
+    background-color: white;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 45px;
+    background-color: white;
+    padding-bottom: 108.25px;
+    
+
+}
+
+.text{
+    width: 189px; 
+    color: #1f2937;
+    text-align: center;
+    font-size: 18px;
+    
+    
+    
+  
+}
+
+img.pics{
+    border: solid 7px #3882f6;
+    border-radius: 12px;
+}
+
+div.text{
+  /*display: flex;*/  
+    
+}
