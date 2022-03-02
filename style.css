@@ -1,6 +1,6 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ h2{
     align-content: center;
     gap: 45px;
     background-color: white;
-    padding-bottom: 108.25px;
+    padding-bottom: 90px;
     
 
 }
@@ -159,4 +159,40 @@ img.pics{
 div.text{
   /*display: flex;*/  
     
+}
+
+.qcontainer{
+    display: flex;
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    
+    
+}
+
+.quote{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    
+    
+    
+}
+
+.thor{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding-bottom: 50px;
+    flex-shrink: 1;
+
+}
+
+.thors{
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 560px;
 }
