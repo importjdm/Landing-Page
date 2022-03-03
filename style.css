@@ -185,7 +185,7 @@ div.text{
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     flex-shrink: 1;
 
 }
@@ -195,4 +195,33 @@ div.text{
     font-size: 20px;
     font-weight: bolder;
     margin-left: 560px;
+}
+
+.color{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+    
+.calltoaction{
+    background-color: #3882f6;
+    width: 600px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: solid 2px #3882f6;
+}
+
+.cta{
+
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.sign-up{
+    color: white;
+
+
 }
