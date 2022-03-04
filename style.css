@@ -204,17 +204,19 @@ div.text{
     background-color: white;
     display: flex;
     justify-content: center;
+    padding: 100px;
 }
 
 
     
 .calltoaction{
     background-color: #3882f6;
-    width: 800px;
+    width: 800px; 
     margin-top: 50px;
     border-radius: 5px;
     border: solid 2px #3882f6;
     padding: 40px 120px;
+    
 }
 
 .cta{
@@ -225,11 +227,13 @@ div.text{
     font-weight: bold;
     display: flex; 
     justify-content: flex-start;
+    align-content: center;
 }
 
 .sign-up{
     color: white;
     display: flex;
+    
 
 
 }
@@ -240,9 +244,27 @@ div.text{
     font-weight: bold;
     font-size: 18px;
     background-color: #3882f6;
-    padding: 8px 39px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     border-radius: 12px;
     border: solid 1px;
+    width: 120px;
+    padding: 5px;
     
+
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90px;
+    
+
+}
+
+.footer{
+    color: white;
+    
+
+}
